@@ -1,0 +1,41 @@
+@media(min-width:600px){
+    .top-navbar{
+        box-shadow: 0 0 50px gray !important;
+    }
+    
+    
+    
+    #top-action-section{
+
+        display:flex !important;
+        align-items: center !important;
+
+    }
+    
+
+}
+
+
+.user_list_item.active .user_list_arrow_icon{
+
+    transform: rotate(180deg);
+}
+ 
+
+.user_list_item,
+.user_list_item .collapsible-header {
+    transition: background-color 200ms ease, opacity 200ms ease;
+    opacity: 0.8;
+}
+
+.user_list_item.active,
+.user_list_item.active .collapsible-header {
+    background-color: rgba(205, 205, 205, 0.879);
+    opacity: 1;
+}
+
+
+.user_list_item.active , .user_list_item.active .collapsible-header{
+    background-color: rgba(205, 205, 205, 0.879);
+
+}
