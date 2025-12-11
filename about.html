@@ -66,10 +66,10 @@
 
 
 <!---------------------content----------------------->
-<section id="top-action-section" class="row m-b-0 m-t-15" >
+<section id="top-action-section" class="row m-b-0 m-t-15 container" >
     <div class="p-l-10 p-r-10 p-t-10 col s12 m3 l2">
         <!-- add btn -->
-        <button class="waves-effect waves-light btn p-l-30 p-r-30  w-full rounded_pill flex-c">
+        <button class="waves-effect waves-light teal lighten-2 btn p-l-30 p-r-30  w-full rounded_pill flex-c">
             <i class="material-icons m-r-5">add</i>
             add user
         </button>
@@ -95,7 +95,7 @@
 
 
 <section class="user_list_section">
-  <ul class="collapsible"> 
+  <ul class="collapsible hide-on-med-and-up"> 
     <li class="user_list_item">
       <div class="collapsible-header">
         <i class="material-icons teal-text lighten-3 user_list_arrow_icon trans-0-3">arrow_drop_down_circle</i>
@@ -174,14 +174,81 @@
     
   </ul>
 
+<div class="hide-on-med-and-down show-on-medium-and-up container">
+  <table class="centered striped highlight">
+    <thead>
 
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Action</th>
+      </tr>
+
+    </thead>
+
+    <tbody class="centered">
+      <tr>
+        <td>Amir</td>
+        <td>amir@gmail.com</td>
+        <td>Landan-str17-p18</td>
+        <td>
+          <i class="material-icons red-text m-l-5 m-r-5">delete_forever </i>
+          <i class="material-icons orange-text m-l-5 m-r-5">edit</i>
+        </td>
+      </tr>
+      <tr>
+        <td>Amir</td>
+        <td>amir@gmail.com</td>
+        <td>Landan-str17-p18</td>
+        <td>
+          <i class="material-icons red-text m-l-5 m-r-5">delete_forever </i>
+          <i class="material-icons orange-text m-l-5 m-r-5">edit</i>
+        </td>
+      </tr>
+      <tr>
+        <td>Amir</td>
+        <td>amir@gmail.com</td>
+        <td>Landan-str17-p18</td>
+        <td>
+          <i class="material-icons red-text m-l-5 m-r-5">delete_forever </i>
+          <i class="material-icons orange-text m-l-5 m-r-5">edit</i>
+        </td>
+      </tr>
+      <tr>
+        <td>Amir</td>
+        <td>amir@gmail.com</td>
+        <td>Landan-str17-p18</td>
+        <td>
+          <i class="material-icons red-text m-l-5 m-r-5">delete_forever </i>
+          <i class="material-icons orange-text m-l-5 m-r-5">edit</i>
+        </td>
+      </tr>
+    </tbody>    
+  </table>
+</div>
 
 </section>
 
 
 
 
+<div class="pagination_conteiner container p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed left-0 right-0 bottom-0 z-depth-4 rounded_top_30">
+  <div class="pagination_item_counts flex-l p-l-10 flex-l-m"> 
+    showing
+    <span class="m-l-5 m-r-5 max-w-50">
+      <input type="number" class=" teal-text no-border center-align m-b-0" value="10">
+    </span>
+    of
+    <span class="teal-text m-l-5 m-r-5 ">100</span>
+  </div>
 
+
+  <div>
+    <i class="material-icons teal lighten-3 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_left</i>
+    <i class="material-icons teal lighten-3 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_right</i>
+  </div>
+</div>
 
 
 
